@@ -1,12 +1,14 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import Heading from "./Heading";
 import List from "./List";
 
-ReactDOM.render(
+function App() {
+return (
   <div>
     <Heading />
     <List />
-  </div>,
-  document.getElementById("root")
-);
+  </div>
+)
+};
+
+export default App;
